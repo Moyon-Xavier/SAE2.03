@@ -9,9 +9,9 @@ Ce guide présente les différentes étapes pour installer Debian.
 Pour l'instalation de Debian 
 - Une machine compatible debian 
 - Un support d'installation tels que un DVD, ou une clef bootable préconfigurer, sinon vous pouvez la configurer en installant l'iso et creer une clef bootable grace au logicele [RUFUS](https://rufus.ie/fr/) 
-- Une conexion Internet est recommandé pour télécharger les paquets supplémentaires pendant l'installation 
+- Une connection Internet est recommandé pour télécharger les paquets supplémentaires pendant l'installation 
 
-Maintenant de lancer votre machine avec votre support, de l'executer lors du lancement de la machine et de suivre les étapes du MarkDown (SAE_2.03.md)
+Maintenant lancer votre machine avec votre support, executez le lors du lancement de la machine et suivez les étapes du MarkDown (SAE_2.03.md)
 
 Pour pouvoir voir le fichier pandoc :
 - Installtion de pandoc :  `sudo apt insyall pandoc `
@@ -19,13 +19,13 @@ Pour pouvoir voir le fichier pandoc :
 - Executer la commande `./commande.sh`
 
 
-### **Question de la sae**
-Toutes les questions posé lors des SAE sont présentes dans le MarkDown entre les différente étape d'installation.
+### **Questions de la sae**
+Toutes les questions posées lors des SAE sont présentes dans le MarkDown entre les différentes étapes d'installation.
 
 ### **la commande `./commande.sh`**
-la commande `./commande.sh` permet de creer les fichier HTML et PDF grace a deux ligne de commande :
+la commande `./commande.sh` permet de créer les fichiers HTML et PDF grace a deux lignes de commande :
 - `pandoc --standalone --toc --css=./style.css -o ./SAE_2.03_PDF.pdf ./SAE_2.03.md;`
 - `pandoc --standalone --toc --css=./style.css -o ./SAE_2.03_HTML.html ./SAE_2.03.md --metadata title="SAE_2.03";`
 
-`**./commande.sh` est programme de convertion de fichier entre les formats de balisage 
+`**./commande.sh` est un programme de convertion de fichier entre les formats de balisage 
 
