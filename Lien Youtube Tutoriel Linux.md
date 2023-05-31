@@ -1,3 +1,3 @@
 # Lien Youtube Video Explicative en Anglais :
 
-Lien Youtube Video Explicative en Anglais : <link src='https://youtu.be/sQVC-XPwBXs'>
+Lien Youtube Video Explicative en Anglais : [Linux tutorial](https://youtu.be/sQVC-XPwBXs)
